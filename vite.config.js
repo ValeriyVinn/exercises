@@ -2,10 +2,15 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
-export default defineConfig({
+// export default defineConfig({
+//   plugins: [react()],
+//   // base: "/exercises/",
+//   base: mode === "production" ? "/exercises/" : "/",
+//   // server: {
+//   //   historyApiFallback: true, // щоб Vite не давав 404 при перезавантаженні сторінки
+//   // },
+// });
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  // base: "/exercises/",
-  server: {
-    historyApiFallback: true, // щоб Vite не давав 404 при перезавантаженні сторінки
-  },
-});
+  base: mode === "production" ? "/exercises/" : "/",
+}));
