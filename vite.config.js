@@ -9,6 +9,8 @@ import react from "@vitejs/plugin-react";
 //   //   historyApiFallback: true, // щоб Vite не давав 404 при перезавантаженні сторінки
 //   // },
 // });
+
+
 export default defineConfig(({ mode }) => ({
   plugins: [react()],
   base: mode === "production" ? "/exercises/" : "/",
