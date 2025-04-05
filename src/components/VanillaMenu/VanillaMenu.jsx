@@ -27,7 +27,7 @@ export default function VanillaMenu() {
   const [sections, setSections] = useState([]);
 
   useEffect(() => {
-    fetch("../../../public/data/vanilla-tasks.json")
+    fetch("/data/vanilla-tasks.json")
       .then((res) => res.json())
       .then((data) => setSections(data))
       .catch((error) => console.error("Error loading vanilla tasks:", error));
