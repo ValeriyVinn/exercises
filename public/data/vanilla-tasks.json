@@ -1,8 +1,11 @@
+
+
+
 [
   {
     "section": "Basic Examples",
     "tasks": [
-      { "title": "Basic HTML Example", "path": "../vanilla/01-basics/basics.html" }
+      { "title": "Basic HTML Example", "path": "vanilla/01-basics/basics.html" }
     ]
   },
   {
@@ -10,11 +13,11 @@
     "tasks": [
       {
         "title": "Task One",
-        "path": "../vanilla/01-basics/01-variables-and-data-types/task-one.html"
+        "path": "vanilla/01-basics/01-variables-and-data-types/task-one.html"
       },
       {
         "title": "Task Two",
-        "path": "../vanilla/01-basics/01-variables-and-data-types/task-two.html"
+        "path": "vanilla/01-basics/01-variables-and-data-types/task-two.html"
       }
     ]
   }
