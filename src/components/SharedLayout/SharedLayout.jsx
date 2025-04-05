@@ -12,7 +12,7 @@ const SharedLayout = () => {
         </li>
         <li className={css.navItem}>
           <NavLink to="exercises" className={css.navLink}>
-            exer
+            Exercises
           </NavLink>
         </li>
         <li className={css.navItem}>
