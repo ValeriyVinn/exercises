@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Basics",
+    "path": "../vanilla/01-basics/basics.html",
+    "children": [
+      {
+        "title": "Variables and Data Types",
+        "path": "#",
+        "tasks": [
+          {
+            "title": "Task 1",
+            "path": "../vanilla/01-basics/01-variables-and-data-types/task-one.html"
+          },
+          { "title": "Task 2", "path": "" },
+          { "title": "Task 3", "path": "" }
+        ]
+      },
+      {
+        "title": "Conditionals",
+        "tasks": [
+          { "title": "Task 1", "path": "" },
+          { "title": "Task 2", "path": "" },
+          { "title": "Task 3", "path": "" }
+        ]
+      },
+      {
+        "title": "Loops",
+        "tasks": [
+          { "title": "Task 1", "path": "" },
+          { "title": "Task 2", "path": "" },
+          { "title": "Task 3", "path": "" }
+        ]
+      },
+      {
+        "title": "Functions",
+        "tasks": [
+          { "title": "Task 1", "path": "" },
+          { "title": "Task 2", "path": "" },
+          { "title": "Task 3", "path": "" }
+        ]
+      },
+      {
+        "title": "Objects",
+        "tasks": [
+          { "title": "Task 1", "path": "" },
+          { "title": "Task 2", "path": "" },
+          { "title": "Task 3", "path": "" }
+        ]
+      },
+      {
+        "title": "Arrays (fundamentals)",
+        "tasks": [
+          { "title": "Task 1", "path": "" },
+          { "title": "Task 2", "path": "" },
+          { "title": "Task 3", "path": "" }
+        ]
+      }
+    ]
+  }
+]

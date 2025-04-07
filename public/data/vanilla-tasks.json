@@ -1,7 +1,7 @@
 [
   {
     "title": "Basics",
-    "path": "../vanilla/01-basics/basics.html",
+    "path": "vanilla/01-basics/basics.html",
     "children": [
       {
         "title": "Variables and Data Types",
@@ -9,7 +9,7 @@
         "tasks": [
           {
             "title": "Task 1",
-            "path": "../vanilla/01-basics/01-variables-and-data-types/task-one.html"
+            "path": "vanilla/01-basics/01-variables-and-data-types/task-one.html"
           },
           { "title": "Task 2", "path": "" },
           { "title": "Task 3", "path": "" }
