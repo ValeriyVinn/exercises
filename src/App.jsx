@@ -8,7 +8,7 @@ function App() {
     <Routes>
       <Route path="/" element={<SharedLayout />}>
         <Route index element={<h1>Home</h1>} />
-        <Route path="/exercises" element={<h1>Exercises</h1>}></Route>
+        {/* <Route path="/exercises" element={<h1>Exercises</h1>}></Route> */}
         {/* <Route path="/vanilla-js" element={<h1>Vanilla</h1>}></Route> */}
         <Route path="/vanilla-js" element={<VanillaMenu />}></Route>
         <Route path="/react" element={<h1>React</h1>}></Route>

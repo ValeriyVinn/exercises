@@ -10,11 +10,11 @@ const SharedLayout = () => {
             Home
           </NavLink>
         </li>
-        <li className={css.navItem}>
+        {/* <li className={css.navItem}>
           <NavLink to="exercises" className={css.navLink}>
             Exercises
           </NavLink>
-        </li>
+        </li> */}
         <li className={css.navItem}>
           <NavLink to="vanilla-js" className={css.navLink}>
             Vanila Java Script
