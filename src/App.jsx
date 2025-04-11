@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import SharedLayout from "./components/SharedLayout/SharedLayout";
+import SharedLayout from "./layouts/SharedLayout";
 import VanillaMenu from "./components/VanillaMenu/VanillaMenu";
 
 function App() {
@@ -8,8 +8,6 @@ function App() {
     <Routes>
       <Route path="/" element={<SharedLayout />}>
         <Route index element={<h1>Home</h1>} />
-        {/* <Route path="/exercises" element={<h1>Exercises</h1>}></Route> */}
-        {/* <Route path="/vanilla-js" element={<h1>Vanilla</h1>}></Route> */}
         <Route path="/vanilla-js" element={<VanillaMenu />}></Route>
         <Route path="/react" element={<h1>React</h1>}></Route>
         <Route path="/redux" element={<h1>Redux</h1>}></Route>
