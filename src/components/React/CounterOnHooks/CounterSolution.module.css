@@ -1,0 +1,49 @@
+.counter {
+    width: 400px;
+    padding: 0px 5px 40px;
+    border: 4px solid darkred;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .header {
+    color: darkred;
+  }
+  
+  .counter__controls > button {
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    background-color: darkred;
+    color: sandybrown;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 1px 2px 2px 0 rgb(244 164 96 / 0.5);
+    transition: box-shadow 150ms linear, color 250ms linear;
+  }
+  
+  .counter__controls > button:active {
+    /* box-shadow: 2px 5px 2px 0 rgb(255 255 0 / 0.5); */
+    box-shadow: 0 0 15px 0 rgb(255 255 0 );
+    color: yellow;
+    }
+  
+  .counter__value {
+    color: darkred;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 100px;
+    font-family: monospace;
+    text-align: center;
+  }
+
+  /* .counter__value:active  > button {
+    
+    box-shadow: 0 0 15px 0 rgb(255 255 0 );
+
+    color: yellow;
+    } */
