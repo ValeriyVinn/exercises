@@ -229,7 +229,7 @@ import css from "./CounterOnHooks.module.css";
 import CounterSolution from "./CounterSolution";
 
 const API_URL = import.meta.env.VITE_API_URL;
-// console.log(import.meta.env.VITE_API_URL);
+console.log(import.meta.env.VITE_API_URL);
 
 const CounterOnHooks = ({ initialValue }) => {
   const [value, setValue] = useState(initialValue);
