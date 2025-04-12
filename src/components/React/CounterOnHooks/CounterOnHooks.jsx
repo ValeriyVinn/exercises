@@ -137,13 +137,16 @@ const CounterOnHooks = ({ initialValue }) => {
     };
 
     try {
-      const response = await fetch("http://localhost:5000/api/exercises", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(exerciseObject),
-      });
+      const response = await fetch(
+        `${import.meta.env.VITE_API_URL}/api/exercises`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(exerciseObject),
+        }
+      );
 
       if (response.ok) {
         console.log("Exercise successfully posted or updated.");
@@ -161,7 +164,9 @@ const CounterOnHooks = ({ initialValue }) => {
 
     if (willBeOpen) {
       try {
-        const response = await fetch("http://localhost:5000/api/exercises");
+        const response = await fetch(
+          `${import.meta.env.VITE_API_URL}/api/exercises`
+        );
         if (response.ok) {
           const data = await response.json();
           const currentExercise = data.find(
