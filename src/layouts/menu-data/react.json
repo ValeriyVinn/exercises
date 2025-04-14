@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Компоненти та колекції. Стилізація",
+    "path": "a",
+    "tasks": [
+      { "title": "Task One", "path": "a/task-one" },
+      { "title": "Task Two", "path": "a/task-two" }
+    ]
+  },
+  {
+    "title": "Події та стан. Форми",
+    "path": "b",
+    "tasks": [
+      { "title": "Task One", "path": "b/task-one" },
+      { "title": "Task Two", "path": "b/task-two" }
+    ]
+  },
+  {
+    "title": "Життєвий цикл компонента. Робота з REST API",
+    "path": "c"
+  },
+  {
+    "title": "Хуки",
+    "path": "d"
+  },
+  {
+    "title": "React Router. React router та поділ коду",
+    "path": "e"
+  }
+]

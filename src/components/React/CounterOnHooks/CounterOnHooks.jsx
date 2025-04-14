@@ -236,32 +236,6 @@ const CounterOnHooks = ({ initialValue }) => {
     setCodeInput(event.target.value);
   };
 
-  // const handlePostCode = async () => {
-  //   const exerciseObject = {
-  //     name: "Counter On Hooks",
-  //     statement: "Create a counter with increment and decrement functionality.",
-  //     solution: [codeInput],
-  //   };
-
-  //   try {
-  //     const response = await fetch(`${API_URL}/exercises`, {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //       body: JSON.stringify(exerciseObject),
-  //     });
-
-  //     if (response.ok) {
-  //       console.log("Exercise successfully posted or updated.");
-  //     } else {
-  //       console.error("Failed to post or update the exercise.");
-  //     }
-  //   } catch (error) {
-  //     console.error("Error posting the exercise:", error.message);
-  //   }
-  // };
-
   const handlePostCode = async () => {
     if (import.meta.env.MODE === "production") {
       console.error("Writing data is not allowed in production.");
