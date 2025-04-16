@@ -17,14 +17,26 @@
   },
   {
     "title": "Життєвий цикл компонента. Робота з REST API",
-    "path": "c"
+    "path": "c",
+    "tasks": [
+      { "title": "Task One", "path": "c/task-one" },
+      { "title": "Task Two", "path": "c/task-two" }
+    ]
   },
   {
     "title": "Хуки",
-    "path": "d"
+    "path": "d",
+    "tasks": [
+      { "title": "Task One", "path": "d/task-one" },
+      { "title": "Task Two", "path": "d/task-two" }
+    ]
   },
   {
     "title": "React Router. React router та поділ коду",
-    "path": "e"
+    "path": "e",
+    "tasks": [
+      { "title": "Task One", "path": "e/task-one" },
+      { "title": "Task Two", "path": "e/task-two" }
+    ]
   }
 ]
