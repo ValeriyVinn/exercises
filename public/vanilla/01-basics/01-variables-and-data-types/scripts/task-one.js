@@ -62,8 +62,9 @@
 // });
 
 
+
 const LOCAL_API_URL = "http://localhost:5000/api/vanilla";
-const REMOTE_API_URL = "https://your-backend.onrender.com/api/vanilla"; // Заміни на твій actual Render URL
+const REMOTE_API_URL = "https://exercises-backend.onrender.com/api/vanilla"; // Замінити на твій actual URL
 const EXERCISE_NAME = "Task 1: Personal Info Card";
 
 const textarea = document.getElementById("solution-input");
@@ -71,11 +72,15 @@ const sendBtn = document.getElementById("send-btn");
 const getBtn = document.getElementById("get-btn");
 const solutionsList = document.getElementById("solutions-list");
 
-// Визначаємо чи ми локально
 const isLocalhost = location.hostname === "localhost";
 const API_URL = isLocalhost ? LOCAL_API_URL : REMOTE_API_URL;
 
 sendBtn.addEventListener("click", async () => {
+  if (!isLocalhost) {
+    alert("Solution submission is only allowed locally.");
+    return;
+  }
+
   const solution = textarea.value.trim();
   if (!solution) return;
 
