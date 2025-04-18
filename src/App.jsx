@@ -4,6 +4,7 @@ import SharedLayout from "./layouts/SharedLayout";
 import VanillaMenu from "./layouts/VanillaMenu";
 import ReactLayout from "./layouts/ReactLayout";
 import CounterOnHooks from "./components/React/CounterOnHooks/CounterOnHooks";
+import TaskOne from "./components/React/TaskOne/TaskOne";
 // import CounterSolution from "./components/React/CounterOnHooks/CounterSolution";
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
     <Routes>
       <Route path="/" element={<SharedLayout />}>
         <Route index element={<h1>Home</h1>} />
-        <Route path="/vanilla-js" element={<VanillaMenu/>}></Route>
+        <Route path="/vanilla-js" element={<VanillaMenu />}></Route>
         <Route path="/react" element={<ReactLayout />}>
-          <Route path="a"element={<CounterOnHooks/>}></Route>
+          <Route path="a" element={<CounterOnHooks />}></Route>
+          <Route path="a/task-one" element={<TaskOne />} />
         </Route>
         <Route path="/redux" element={<h1>Redux</h1>}></Route>
         <Route path="/node-js" element={<h1>Node JS</h1>}></Route>
