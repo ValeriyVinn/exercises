@@ -1,14 +1,14 @@
 [
   {
-    "title": "Компоненти та колекції. Стилізація",
-    "path": "a",
+    "title": "Basic Components, Props and Styling",
+    "path": "basic-components",
     "tasks": [
-      { "title": "Task One", "path": "a/task-one" },
-      { "title": "Task Two", "path": "a/task-two" }
+      { "title": "Task One", "path": "basic-components/task-one" },
+      { "title": "Task Two", "path": "basic-components/task-two" }
     ]
   },
   {
-    "title": "Події та стан. Форми",
+    "title": "Events and State. Forms",
     "path": "b",
     "tasks": [
       { "title": "Task One", "path": "b/task-one" },
@@ -16,7 +16,7 @@
     ]
   },
   {
-    "title": "Життєвий цикл компонента. Робота з REST API",
+    "title": "Component Lifecycle. Working with REST API",
     "path": "c",
     "tasks": [
       { "title": "Task One", "path": "c/task-one" },
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "title": "Хуки",
+    "title": "Hooks (useState, useEffect, useRef, useMemo, etc.)",
     "path": "d",
     "tasks": [
       { "title": "Task One", "path": "d/task-one" },
@@ -32,11 +32,35 @@
     ]
   },
   {
-    "title": "React Router. React router та поділ коду",
+    "title": "React Router. Code Splitting (lazy, Suspense)",
     "path": "e",
     "tasks": [
       { "title": "Task One", "path": "e/task-one" },
       { "title": "Task Two", "path": "e/task-two" }
+    ]
+  },
+  {
+    "title": "Advanced Composition Patterns (render props, HOC, children as function)",
+    "path": "f",
+    "tasks": [
+      { "title": "Task One", "path": "d/task-one" },
+      { "title": "Task Two", "path": "d/task-two" }
+    ]
+  },
+  {
+    "title": "Component Testing (Jest, React Testing Library)",
+    "path": "g",
+    "tasks": [
+      { "title": "Task One", "path": "d/task-one" },
+      { "title": "Task Two", "path": "d/task-two" }
+    ]
+  },
+  {
+    "title": "Context (React Context API, useContext)",
+    "path": "h",
+    "tasks": [
+      { "title": "Task One", "path": "d/task-one" },
+      { "title": "Task Two", "path": "d/task-two" }
     ]
   }
 ]

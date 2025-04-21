@@ -62,7 +62,7 @@ export default function VanillaMenu() {
   const renderLink = (title, path) => (
     <a
       href={path ? `${import.meta.env.BASE_URL}${path}` : "#"}
-      target={path ? "_blank" : "_self"}
+      // target={path ? "_blank" : "_self"}
       rel="noopener noreferrer"
     >
       {title}
@@ -91,7 +91,7 @@ export default function VanillaMenu() {
 
   return (
     <div style={{ padding: "5px" }}>
-      <h2>Vanilla JavaScript Examples</h2>
+      {/* <h2>JavaScript Examples</h2> */}
       <ol>
         {vanillaMenu.map((section, idx) => (
           <li key={idx}>

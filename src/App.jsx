@@ -4,21 +4,29 @@ import SharedLayout from "./layouts/SharedLayout";
 import VanillaMenu from "./layouts/VanillaMenu";
 import ReactLayout from "./layouts/ReactLayout";
 import CounterOnHooks from "./components/React/CounterOnHooks/CounterOnHooks";
-import TaskOne from "./components/React/TaskOne/TaskOne";
-// import CounterSolution from "./components/React/CounterOnHooks/CounterSolution";
+import BasicComponents from "./components/React/01-BasicComponents/BasicComponests";
+import TaskTwo from "./components/React/TaskTwo/TaskTwo";
+
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<SharedLayout />}>
         <Route index element={<h1>Home</h1>} />
-        <Route path="/vanilla-js" element={<VanillaMenu />}></Route>
+        <Route path="/vanilla-js" element={<VanillaMenu />} />
         <Route path="/react" element={<ReactLayout />}>
-          <Route path="a" element={<CounterOnHooks />}></Route>
-          <Route path="a/task-one" element={<TaskOne />} />
+          <Route path="basic-components" element={<BasicComponents />} />
+          <Route
+            path="basic-components/task-one"
+            element={<CounterOnHooks />}
+          />
+          <Route
+            path="basic-components/task-two"
+            element={<TaskTwo/>}
+          />
         </Route>
-        <Route path="/redux" element={<h1>Redux</h1>}></Route>
-        <Route path="/node-js" element={<h1>Node JS</h1>}></Route>
+        <Route path="/redux" element={<h1>Redux</h1>} />
+        <Route path="/node-js" element={<h1>Node JS</h1>} />
         <Route path="*" element={<h1>Element not found</h1>} />
       </Route>
     </Routes>
