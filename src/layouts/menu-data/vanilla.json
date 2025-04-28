@@ -15,7 +15,11 @@
             "title": "Task 2",
             "path": "vanilla/01-basics/01-variables-and-data-types/task-two.html"
           },
-          { "title": "Task 3", "path": "vanilla/01-basics/01-variables-and-data-types/03-accordion.html" }
+          { "title": "Task 3", "path": "vanilla/01-basics/01-variables-and-data-types/03-accordion.html" },
+          {
+            "title": "Task 4",
+            "path": "vanilla/01-basics/01-variables-and-data-types/04-modal.html"
+          }
         ]
       },
       {

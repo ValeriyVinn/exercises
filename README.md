@@ -1,3 +1,4 @@
+🇬🇧 In English
 # Fullstack Training App – Frontend
 
 This is the frontend part of a fullstack training application designed for self-paced learning and practice. It is built using **React + Vite** and includes a `public/vanilla` folder for practicing plain JavaScript.
@@ -24,7 +25,9 @@ npm install
 npm run dev
 ```
 
-# Fullstack Training App – Frontend
+
+🇺🇦 Українською
+# Fullstack навчальний додаток – фронтенд
 
 Це фронтенд-частина навчального фулстек застосунку, створеного для самостійної практики розробки. Вона побудована з використанням **React + Vite**, а також містить окрему папку `public/vanilla`, де можна практикувати чистий JavaScript.
 
