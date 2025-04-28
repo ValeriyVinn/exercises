@@ -20,17 +20,22 @@ p {
 .flex {
   display: flex;
 }
+.side {
+  width: fit-content;
+}
 .solutions {
   margin-left: 40px;
-  /* border: 1px solid black; */
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 5px;
   height: 90vh;
   width: 80vw;
+  flex-grow: 1;
   overflow: auto;
 }
 
 /* css */
 .accordion {
-  width: 300px;
+  width: 400px;
 }
 .accordion-item {
   margin-bottom: 5px;
@@ -42,9 +47,9 @@ p {
   font-weight: bold;
   color: wheat;
 }
-.accordion-content {
+/* .accordion-content {
   display: none;
-  max-height: 1000px;
+  max-height: 0px;
   transition: max-height 0.6s ease;
   padding: 10px;
   overflow: hidden;
@@ -56,4 +61,24 @@ p {
 .accordion-content.active {
   display: block;
   max-height: 1000px;
+} */
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 10px;
+  transition: max-height 0.25s ease;
+  transition: padding 0.25s ease;
+
+  color: rgb(21, 112, 108);
+  background-color: lightblue;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.accordion-content.active {
+  max-height: 1000px;
+  /* велике значення, яке точно більше за висоту вмісту */
+  padding: 10px;
+  /* можна теж плавно міняти padding, якщо треба */
 }
