@@ -8,17 +8,24 @@
         "path": "vanilla/01-basics/basics.html",
         "tasks": [
           {
-            "title": "Task 1",
+            "title": "Create variables",
             "path": "vanilla/01-basics/01-variables-and-data-types/task-one.html"
           },
           {
-            "title": "Task 2",
+            "title": "Type checker",
             "path": "vanilla/01-basics/01-variables-and-data-types/task-two.html"
           },
-          { "title": "Task 3", "path": "vanilla/01-basics/01-variables-and-data-types/03-accordion.html" },
           {
-            "title": "Task 4",
+            "title": "Accordion",
+            "path": "vanilla/01-basics/01-variables-and-data-types/03-accordion.html"
+          },
+          {
+            "title": "Modal Window",
             "path": "vanilla/01-basics/01-variables-and-data-types/04-modal.html"
+          },
+          {
+            "title": "Three Modal Window",
+            "path": "vanilla/01-basics/01-variables-and-data-types/05-three-modal.html"
           }
         ]
       },
