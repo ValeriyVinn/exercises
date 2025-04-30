@@ -26,7 +26,7 @@ p {
   overflow: auto;
 }
 
-
+/* ? Modal Window  */
 
 .modal-overlay {
   position: fixed;
@@ -64,7 +64,8 @@ p {
   visibility: visible;
 }
 
-
+/* ? Modal Window 
+? Example modal */
 .example-modal-overlay {
   position: fixed;
   top: 0;
@@ -87,6 +88,9 @@ p {
   position: relative;
   min-width: 300px;
 }
+.example-open-btn{
+  cursor: pointer;
+}
 .example-close-btn {
   position: absolute;
   top: 10px;
@@ -100,3 +104,4 @@ p {
   opacity: 1;
   visibility: visible;
 }
+/* ? Example modal */
