@@ -2,10 +2,10 @@ const oneBetlyck = document.querySelectorAll(".grid-element");
 
 const content = `
   <h3 class="subject">English</h3>
+  <p class="practice">Reading</p>
+  <p class="practice">Listening</p>
   <p class="practice">Shadowing</p>
   <p class="practice">Learning words</p>
-  <p class="practice">Listening</p>
-  <p class="practice">Reading</p>
   <p class="practice">Writing</p>
   <p class="practice">Conversation</p>
   <h3 class="subject"> Typing <span class="subject-span">EN__ UK__</span></h3>
