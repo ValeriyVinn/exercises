@@ -8,12 +8,16 @@
         "path": "vanilla/01-basics/basics.html",
         "tasks": [
           {
-            "title": "Create variables",
-            "path": "vanilla/01-basics/01-variables-and-data-types/task-one.html"
+            "title": "Personal info card",
+            "path": "vanilla/01-basics/01-variables-and-data-types/personal-info-card.html"
           },
           {
             "title": "Type checker",
-            "path": "vanilla/01-basics/01-variables-and-data-types/task-two.html"
+            "path": "vanilla/01-basics/01-variables-and-data-types/type-checker.html"
+          },
+          {
+            "title": "Price calculator",
+            "path": "vanilla/01-basics/01-variables-and-data-types/price-calculator.html"
           },
           {
             "title": "Accordion",

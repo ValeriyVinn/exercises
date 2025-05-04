@@ -1,20 +1,3 @@
-// export function createModal({ title, contentHTML }) {
-//   const template = document.getElementById("shared-modal-template");
-//   const modalNode = template.content.cloneNode(true);
-//   const overlay = modalNode.querySelector(".modal-overlay");
-//   const titleEl = modalNode.querySelector(".modal-title");
-//   const contentEl = modalNode.querySelector(".modal-content");
-//   const closeBtn = modalNode.querySelector(".close-btn");
-
-//   titleEl.textContent = title;
-//   contentEl.innerHTML = contentHTML;
-
-//   closeBtn.addEventListener("click", () => overlay.remove());
-
-//   document.body.appendChild(overlay);
-//   overlay.style.display = "flex";
-// }
-
 export function createModal({ title, contentHTML, extraClass = "" }) {
   const template = document.getElementById("shared-modal-template");
   const modalNode = template.content.cloneNode(true);
