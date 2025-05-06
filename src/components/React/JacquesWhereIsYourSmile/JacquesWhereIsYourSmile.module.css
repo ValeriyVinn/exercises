@@ -1,0 +1,40 @@
+.code {
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: lightgray;
+    /* padding-top: 0px; */
+  }
+  
+  .accordion {
+    /* margin-top: 10px; */
+    /* background-color: rgb(240, 240, 240); */
+    padding: 5px 10px;
+    border: 2px solid #ccc;
+    /* border-radius: 5px; */
+  }
+  
+  .accordion pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    /* font-family: inherit; Використовує той самий шрифт, що й решта тексту */
+    margin: 0; /* Забирає стандартні відступи */
+  }
+  
+  .solutionList {
+    list-style: decimal;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .solutionItem {
+    background-color: rgb(245, 245, 245);
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left: 15px;
+  }
+  
+  .solutionItem:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  

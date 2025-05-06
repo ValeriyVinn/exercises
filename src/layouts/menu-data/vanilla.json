@@ -4,7 +4,7 @@
     "path": "vanilla/01-basics/basics.html",
     "children": [
       {
-        "title": "Variables and Data Types",
+        "title": "Variables and data types",
         "path": "vanilla/01-basics/basics.html",
         "tasks": [
           {
@@ -24,11 +24,11 @@
             "path": "vanilla/01-basics/01-variables-and-data-types/03-accordion.html"
           },
           {
-            "title": "Modal Window",
+            "title": "Modal window",
             "path": "vanilla/01-basics/01-variables-and-data-types/04-modal.html"
           },
           {
-            "title": "Three Modal Window",
+            "title": "Three modal window",
             "path": "vanilla/01-basics/01-variables-and-data-types/05-three-modal.html"
           }
         ]
@@ -185,8 +185,8 @@
       {
         "title": "Element selection",
         "tasks": [
-          { "title": "Task 1", "path": "" },
-          { "title": "Task 2", "path": "" },
+          { "title": "List data in the console", "path": "vanilla/05-working-with-the-DOM/01-element-selection/list-data-in-the-console/list-data-in-the-console.html" },
+          { "title": "Toggle background color", "path": "vanilla/05-working-with-the-DOM/01-element-selection/toggle-background-color/toggle-background-color.html" },
           { "title": "Task 3", "path": "" }
         ]
       },

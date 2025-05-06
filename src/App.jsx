@@ -5,7 +5,7 @@ import VanillaMenu from "./layouts/VanillaMenu";
 import ReactLayout from "./layouts/ReactLayout";
 import CounterOnHooks from "./components/React/CounterOnHooks/CounterOnHooks";
 import BasicComponents from "./components/React/01-BasicComponents/BasicComponests";
-import TaskTwo from "./components/React/TaskTwo/TaskTwo";
+import JacquesWhereIsYourSmile from "./components/React/JacquesWhereIsYourSmile/JacquesWhereIsYourSmile";
 
 
 function App() {
@@ -21,8 +21,8 @@ function App() {
             element={<CounterOnHooks />}
           />
           <Route
-            path="basic-components/task-two"
-            element={<TaskTwo/>}
+            path="basic-components/jacques-where-is-your-smile"
+            element={<JacquesWhereIsYourSmile />}
           />
         </Route>
         <Route path="/redux" element={<h1>Redux</h1>} />
