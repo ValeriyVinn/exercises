@@ -4,7 +4,7 @@ setupExercise({
   fileKey: "05-working-with-the-DOM",
   exerciseName: "Toggle background color",
   statement:
-    "There are several buttons on a page. Write a script that toggled the color of the button to yellow/black when clicked.",
+    "There are several buttons on a page. Write a script that toggled the color of the button to yellow or antiquewhite when clicked.",
 });
 
 // ! Рішення ----------
