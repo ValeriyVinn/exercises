@@ -265,7 +265,7 @@
         "title": "Callbacks",
         "tasks": [
           { "title": "Belated greetings", "path": "vanilla/08-asynchronous-JS/01-callbacks/belated-greetings.html" },
-          { "title": "Task 2", "path": "" },
+          { "title": "Processing an array with callback", "path": "vanilla/08-asynchronous-JS/01-callbacks/processing-an-array-with-callback.html" },
           { "title": "Task 3", "path": "" }
         ]
       },
