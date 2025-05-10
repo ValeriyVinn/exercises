@@ -185,8 +185,8 @@
       {
         "title": "Element selection",
         "tasks": [
-          { "title": "List data in the console", "path": "vanilla/05-working-with-the-DOM/01-element-selection/list-data-in-the-console/list-data-in-the-console.html" },
-          { "title": "Toggle background color", "path": "vanilla/05-working-with-the-DOM/01-element-selection/toggle-background-color/toggle-background-color.html" },
+          { "title": "List data in the console", "path": "vanilla/05-working-with-the-dom/01-element-selection/list-data-in-the-console/list-data-in-the-console.html" },
+          { "title": "Toggle background color", "path": "vanilla/05-working-with-the-dom/01-element-selection/toggle-background-color/toggle-background-color.html" },
           { "title": "Task 3", "path": "" }
         ]
       },
@@ -201,7 +201,7 @@
       {
         "title": "Creating and inserting elements",
         "tasks": [
-          { "title": "Betlyck", "path": "vanilla/05-working-with-the-DOM/03-creating-inserting-elements/betlyck.html" },
+          { "title": "Betlyck", "path": "vanilla/05-working-with-the-dom/03-creating-inserting-elements/betlyck.html" },
           { "title": "Task 2", "path": "" },
           { "title": "Task 3", "path": "" }
         ]
@@ -264,8 +264,8 @@
       {
         "title": "Callbacks",
         "tasks": [
-          { "title": "Belated greetings", "path": "vanilla/08-asynchronous-JS/01-callbacks/belated-greetings.html" },
-          { "title": "Processing an array with callback", "path": "vanilla/08-asynchronous-JS/01-callbacks/processing-an-array-with-callback.html" },
+          { "title": "Belated greetings", "path": "vanilla/08-asynchronous-js/01-callbacks/belated-greetings.html" },
+          { "title": "Processing an array with callback", "path": "vanilla/08-asynchronous-js/01-callbacks/processing-an-array-with-callback.html" },
           { "title": "Task 3", "path": "" }
         ]
       },
