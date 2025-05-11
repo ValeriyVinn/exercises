@@ -4,11 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="./styles/processing-an-array-with-callback.css"
-    />
-    <title>Processing an array with callback</title>
+    <link rel="stylesheet" href="./sequence-of-promises.css" />
+    <title>Sequence of promises</title>
   </head>
   <body>
     <a href="/exercises/">Home</a>
@@ -32,29 +29,29 @@
         <br />
         <button id="get-btn">Get solution</button>
         <!-- conditions of the problem -->
-        <h1 class="header">Processing an array with callback</h1>
+        <h1 class="header">Sequence of promises</h1>
 
         <p>
-          Write a function processArray(arr, callback) that processes each
-          element of the array through a callback function.
+          Create a sequence of two promises: the first waits for 1 second, the second for 2 seconds.
         </p>
 
         <!-- conditions of the problem -->
       </div>
-      <div class="solutions"><ul id="solutions-list"></ul></div>
+      <div class="grow">
+        <div>
+          <!-- <div class="solutions">
+ 
+          </div> -->
+          <div class="solutions"><ul id="solutions-list"></ul></div>
+        </div>
+      </div>
     </div>
 
     <!-- <script
       type="module"
       src="../../../shared/modal/modal.js"
     ></script> -->
-    <script
-      type="module"
-      src="./scripts/processing-an-array-with-callback.js"
-    ></script>
-    <script
-      type="module"
-      src="../../../vanilla/scripts/modal/modal.js"
-    ></script>
+    <script type="module" src="./sequence-of-promises.js"></script>
+    <script type="module" src="../../../scripts/modal/modal.js"></script>
   </body>
 </html>
