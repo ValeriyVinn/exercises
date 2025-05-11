@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./styles/type-checker.css" />
-    <title>Type Checker</title>
+    <link rel="stylesheet" href="./delayed-promise.css" />
+    <title>Delayed promise</title>
   </head>
   <body>
     <a href="/exercises/">Home</a>
@@ -29,29 +29,29 @@
         <br />
         <button id="get-btn">Get solution</button>
         <!-- conditions of the problem -->
-        <h1>Type Checker</h1>
+        <h1 class="header">Delayed promise</h1>
 
         <p>
-          Create variables of each primitive type (string, number, boolean,
-          undefined, null). Use typeof to print the type of each.
+         Write a function delay(ms) that returns a promise that will be fulfilled after a given time.
         </p>
-        <h2>Requirements:</h2>
-        <ul>
-          <li>Declare 5 variables.</li>
-          <li>Use console.log(typeof variable) to show the type.</li>
-        </ul>
+
         <!-- conditions of the problem -->
       </div>
-
-      <div class="solutions"><ul id="solutions-list"></ul></div>
+      <div class="grow">
+        <div>
+          <!-- <div class="solutions">
+ 
+          </div> -->
+          <div class="solutions"><ul id="solutions-list"></ul></div>
+        </div>
+      </div>
     </div>
 
-    <script
+    <!-- <script
       type="module"
-      src="../../scripts/vanilla-exercise-handler.js"
-    ></script>
-    <script type="module" src="./scripts/type-checker.js"></script>
-    <script type="module" src="../../scripts/modal/modal.js"></script>
-    
+      src="../../../shared/modal/modal.js"
+    ></script> -->
+    <script type="module" src="./delayed-promise.js"></script>
+    <script type="module" src="../../../scripts/modal/modal.js"></script>
   </body>
 </html>

@@ -4,15 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./styles/personal-info-card.css" />
-    <title>Personal Info Card</title>
+    <link rel="stylesheet" href="./consistent-waiting.css" />
+    <title>Consistent waiting</title>
   </head>
   <body>
     <a href="/exercises/">Home</a>
 
     <div class="flex">
       <div class="side">
-
         <button class="open-btn" id="openModal">Send solution</button>
         <div class="modal-overlay" id="backdrop">
           <div class="modal">
@@ -29,23 +28,31 @@
         </div>
         <br />
         <button id="get-btn">Get solution</button>
-
-        <h1>Personal Info Card</h1>
+        <!-- conditions of the problem -->
+        <h1 class="header">Consistent waiting</h1>
 
         <p>
-          Create variables to store your name, age, and whether you’re a student
-          (true/false). Print a message to the console using these values.
+          Create two asynchronous functions with different delays and call them
+          sequentially.
         </p>
 
+        <!-- conditions of the problem -->
       </div>
-      <div class="solutions"><ul id="solutions-list"></ul></div>
+      <div class="grow">
+        <div>
+          <!-- <div class="solutions">
+ 
+          </div> -->
+          <div class="solutions"><ul id="solutions-list"></ul></div>
+        </div>
+      </div>
     </div>
 
-    <script
+    <!-- <script
       type="module"
-      src="../../scripts/vanilla-exercise-handler.js"
-    ></script>
-    <script type="module" src="./scripts/personal-info-card.js"></script>
-    <script type="module" src="../../scripts/modal/modal.js"></script>
+      src="../../../shared/modal/modal.js"
+    ></script> -->
+    <script type="module" src="./consistent-waiting.js"></script>
+    <script type="module" src="../../../scripts/modal/modal.js"></script>
   </body>
 </html>
