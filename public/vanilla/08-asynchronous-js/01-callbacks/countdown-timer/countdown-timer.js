@@ -13,7 +13,7 @@ setupExercise({
 //   let current = start;
 //   const timer = setInterval(() => {
 //     console.log(current);
-//     current--;
+//     current -= 10;
 //     if (current < 0) {
 //       clearInterval(timer);
 //       callback();
@@ -21,6 +21,6 @@ setupExercise({
 //   }, 1000);
 // }
 
-// countdown(5, () => {
+// countdown(50, () => {
 //   console.log("Countdown finished!");
 // });

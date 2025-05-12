@@ -81,7 +81,10 @@
       {
         "title": "forEach, map, filter",
         "tasks": [
-          { "title": "Task 1", "path": "vanilla/02-array-methods/01-forEach-map-filter/task-one.html" },
+          {
+            "title": "Task 1",
+            "path": "vanilla/02-array-methods/01-forEach-map-filter/task-one.html"
+          },
           { "title": "Task 2", "path": "" },
           { "title": "Task 3", "path": "" }
         ]
@@ -154,7 +157,7 @@
     "children": [
       {
         "title": "Math.*",
-        
+
         "tasks": [
           { "title": "Task 1", "path": "" },
           { "title": "Task 2", "path": "" },
@@ -185,8 +188,14 @@
       {
         "title": "Element selection",
         "tasks": [
-          { "title": "List data in the console", "path": "vanilla/05-working-with-the-dom/01-element-selection/list-data-in-the-console/list-data-in-the-console.html" },
-          { "title": "Toggle background color", "path": "vanilla/05-working-with-the-dom/01-element-selection/toggle-background-color/toggle-background-color.html" },
+          {
+            "title": "List data in the console",
+            "path": "vanilla/05-working-with-the-dom/01-element-selection/list-data-in-the-console/list-data-in-the-console.html"
+          },
+          {
+            "title": "Toggle background color",
+            "path": "vanilla/05-working-with-the-dom/01-element-selection/toggle-background-color/toggle-background-color.html"
+          },
           { "title": "Task 3", "path": "" }
         ]
       },
@@ -201,7 +210,10 @@
       {
         "title": "Creating and inserting elements",
         "tasks": [
-          { "title": "Betlyck", "path": "vanilla/05-working-with-the-dom/03-creating-inserting-elements/betlyck.html" },
+          {
+            "title": "Betlyck",
+            "path": "vanilla/05-working-with-the-dom/03-creating-inserting-elements/betlyck.html"
+          },
           { "title": "Task 2", "path": "" },
           { "title": "Task 3", "path": "" }
         ]
@@ -264,33 +276,69 @@
       {
         "title": "Callbacks",
         "tasks": [
-          { "title": "Belated greetings", "path": "vanilla/08-asynchronous-js/01-callbacks/belated-greetings/belated-greetings.html" },
-          { "title": "Processing an array with callback", "path": "vanilla/08-asynchronous-js/01-callbacks/processing-an-array-with-callback/processing-an-array-with-callback.html" },
-          { "title": "Countdown timer", "path": "vanilla/08-asynchronous-js/01-callbacks/countdown-timer/countdown-timer.html" }
+          {
+            "title": "Belated greetings",
+            "path": "vanilla/08-asynchronous-js/01-callbacks/belated-greetings/belated-greetings.html"
+          },
+          {
+            "title": "Processing an array with callback",
+            "path": "vanilla/08-asynchronous-js/01-callbacks/processing-an-array-with-callback/processing-an-array-with-callback.html"
+          },
+          {
+            "title": "Countdown timer",
+            "path": "vanilla/08-asynchronous-js/01-callbacks/countdown-timer/countdown-timer.html"
+          }
         ]
       },
       {
         "title": "Promises",
         "tasks": [
-          { "title": "Delayed promise", "path": "vanilla/08-asynchronous-js/02-promises/delayed-promise/delayed-promise.html" },
-          { "title": "Number check", "path": "vanilla/08-asynchronous-js/02-promises/number-check/number-check.html" },
-          { "title": "Sequence of promises", "path": "vanilla/08-asynchronous-js/02-promises/sequence-of-promises/sequence-of-promises.html" }
+          {
+            "title": "Delayed promise",
+            "path": "vanilla/08-asynchronous-js/02-promises/delayed-promise/delayed-promise.html"
+          },
+          {
+            "title": "Number check",
+            "path": "vanilla/08-asynchronous-js/02-promises/number-check/number-check.html"
+          },
+          {
+            "title": "Sequence of promises",
+            "path": "vanilla/08-asynchronous-js/02-promises/sequence-of-promises/sequence-of-promises.html"
+          }
         ]
       },
       {
         "title": "async/await",
         "tasks": [
-          { "title": "Asynchronous greeting", "path": "vanilla/08-asynchronous-js/03-async-await/asynchronous-greeting/asynchronous-greeting.html" },
-          { "title": "Parity check", "path": "vanilla/08-asynchronous-js/03-async-await/parity-check/parity-check.html" },
-          { "title": "Consistent waiting", "path": "vanilla/08-asynchronous-js/03-async-await/consistent-waiting/consistent-waiting.html" }
+          {
+            "title": "Asynchronous greeting",
+            "path": "vanilla/08-asynchronous-js/03-async-await/asynchronous-greeting/asynchronous-greeting.html"
+          },
+          {
+            "title": "Parity check",
+            "path": "vanilla/08-asynchronous-js/03-async-await/parity-check/parity-check.html"
+          },
+          {
+            "title": "Consistent waiting",
+            "path": "vanilla/08-asynchronous-js/03-async-await/consistent-waiting/consistent-waiting.html"
+          }
         ]
       },
       {
         "title": "fetch (working with APIs)",
         "tasks": [
-          { "title": "Getting data from the API", "path": "vanilla/08-asynchronous-js/04-fetch-working-with-api/getting-data-from-api/getting-data-from-api.html" },
-          { "title": "Sending data", "path": "vanilla/08-asynchronous-js/04-fetch-working-with-api/sending-data/sending-data.html" },
-          { "title": "Checking the status of the response", "path": "vanilla/08-asynchronous-js/04-fetch-working-with-api/check-response-status/check-response-status.html" }
+          {
+            "title": "Getting data from the API",
+            "path": "vanilla/08-asynchronous-js/04-fetch-working-with-api/getting-data-from-api/getting-data-from-api.html"
+          },
+          {
+            "title": "Sending data",
+            "path": "vanilla/08-asynchronous-js/04-fetch-working-with-api/sending-data/sending-data.html"
+          },
+          {
+            "title": "Checking the status of the response",
+            "path": "vanilla/08-asynchronous-js/04-fetch-working-with-api/check-response-status/check-response-status.html"
+          }
         ]
       }
     ]
@@ -359,17 +407,35 @@
       {
         "title": "localStorage / sessionStorage",
         "tasks": [
-          { "title": "Task 1", "path": "" },
-          { "title": "Task 2", "path": "" },
-          { "title": "Task 3", "path": "" }
+          {
+            "title": "Saving username",
+            "path": "vanilla/11-local-storage/01-local-and-session-storage/save-username/save-username.html"
+          },
+          {
+            "title": "Page view counter",
+            "path": "vanilla/11-local-storage/01-local-and-session-storage/page-view-counter/page-view-counter.html"
+          },
+          {
+            "title": "Saving the site theme",
+            "path": "vanilla/11-local-storage/01-local-and-session-storage/save-site-theme/save-site-theme.html"
+          }
         ]
       },
       {
         "title": "JSON",
         "tasks": [
-          { "title": "Task 1", "path": "" },
-          { "title": "Task 2", "path": "" },
-          { "title": "Task 3", "path": "" }
+          {
+            "title": "Saving an object to localStorage",
+            "path": "vanilla/11-local-storage/02-JSON/saving-an-object/saving-an-object.html"
+          },
+          {
+            "title": "Getting an array from localStorage",
+            "path": "vanilla/11-local-storage/02-JSON/getting-an-array/getting-an-array.html"
+          },
+          {
+            "title": "Saving a task list",
+            "path": "vanilla/11-local-storage/02-JSON/saving-a-task-list/saving-a-task-list.html"
+          }
         ]
       }
     ]

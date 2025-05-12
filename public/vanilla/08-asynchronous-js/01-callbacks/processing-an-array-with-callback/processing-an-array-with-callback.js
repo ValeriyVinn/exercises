@@ -9,12 +9,12 @@ setupExercise({
 // 09.05.2025 - 20:40 --score is: 20:13
 // 10.05.2025 - 21:30 --score is: 06:57
 // ! Рішення ----------
-function processArray(arr, callback) {
-  arr.forEach((item, index) => {
-    callback(item, index);
-  });
-}
+// function processArray(arr, callback) {
+//   arr.forEach((item, index) => {
+//     callback(item, index);
+//   });
+// }
 
-processArray([1, 2, 3], (item, index) => {
-  console.log(`Item ${index + 1}: ${item}`);
-});
+// processArray([1, 2, 3], (item, index) => {
+//   console.log(`Item ${index + 1}: ${item}`);
+// });
