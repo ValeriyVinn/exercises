@@ -287,6 +287,10 @@
           {
             "title": "Countdown timer",
             "path": "vanilla/08-asynchronous-js/01-callbacks/countdown-timer/countdown-timer.html"
+          },
+          {
+            "title": "Do math",
+            "path": "vanilla/08-asynchronous-js/01-callbacks/do-math/do-math.html"
           }
         ]
       },
@@ -326,6 +330,23 @@
       },
       {
         "title": "fetch (working with APIs)",
+        "tasks": [
+          {
+            "title": "Getting data from the API",
+            "path": "vanilla/08-asynchronous-js/04-fetch-working-with-api/getting-data-from-api/getting-data-from-api.html"
+          },
+          {
+            "title": "Sending data",
+            "path": "vanilla/08-asynchronous-js/04-fetch-working-with-api/sending-data/sending-data.html"
+          },
+          {
+            "title": "Checking the status of the response",
+            "path": "vanilla/08-asynchronous-js/04-fetch-working-with-api/check-response-status/check-response-status.html"
+          }
+        ]
+      },
+      {
+        "title": "Closures",
         "tasks": [
           {
             "title": "Getting data from the API",
