@@ -291,6 +291,10 @@
           {
             "title": "Do math",
             "path": "vanilla/08-asynchronous-js/01-callbacks/do-math/do-math.html"
+          },
+          {
+            "title": "Filter",
+            "path": "vanilla/08-asynchronous-js/01-callbacks/filter/filter.html"
           }
         ]
       },
@@ -349,16 +353,20 @@
         "title": "Closures",
         "tasks": [
           {
-            "title": "Getting data from the API",
-            "path": "vanilla/08-asynchronous-js/04-fetch-working-with-api/getting-data-from-api/getting-data-from-api.html"
+            "title": "Counter with memory",
+            "path": "vanilla/08-asynchronous-js/05-closures/counter-with-memory/counter-with-memory.html"
           },
           {
-            "title": "Sending data",
-            "path": "vanilla/08-asynchronous-js/04-fetch-working-with-api/sending-data/sending-data.html"
+            "title": "Random number generator in range",
+            "path": "vanilla/08-asynchronous-js/05-closures/random-number-generator-in-range/random-number-generator-in-range.html"
           },
           {
-            "title": "Checking the status of the response",
-            "path": "vanilla/08-asynchronous-js/04-fetch-working-with-api/check-response-status/check-response-status.html"
+            "title": "Saving the settings state",
+            "path": "vanilla/08-asynchronous-js/05-closures/saving-the-settings-state/saving-the-settings-state.html"
+          },
+          {
+            "title": "Make Sheff",
+            "path": "vanilla/08-asynchronous-js/05-closures/make-sheff/make-sheff.html"
           }
         ]
       }
