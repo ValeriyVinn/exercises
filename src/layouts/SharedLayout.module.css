@@ -6,3 +6,30 @@
 .navItem:not(:last-child) {
   margin-right: 50px;
 }
+
+.navItem {
+  position: relative;
+}
+
+.reactMenu {
+  position: absolute;
+  width: 700px;
+  top: 100%;
+  left: 0;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 10;
+}
+
+.navItem:hover .reactMenu,
+.navItem:focus-within .reactMenu {
+  opacity: 1;
+  visibility: visible;
+}
+

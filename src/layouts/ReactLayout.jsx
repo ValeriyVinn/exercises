@@ -1,37 +1,15 @@
-// import { NavLink, Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
 // import css from "./ReactLayout.module.css";
+// import ReactMenu from "./ReactMenu";
 
 // const ReactLayout = () => {
 //   return (
 //     <div className={css.reactPage}>
-//       <ul className={css.navList}>
-//         <li className={css.navItem}>
-//           <NavLink to="a" className={css.navLink}>
-//             Компоненти та колекції. Стилізація
-//           </NavLink>
-//         </li>
-//         <li className={css.navItem}>
-//           <NavLink to="b" className={css.navLink}>
-//             Події та стан. Форми
-//           </NavLink>
-//         </li>
-//         <li className={css.navItem}>
-//           <NavLink to="c" className={css.navLink}>
-//             Життєвий цикл компонента. Робота з REST API
-//           </NavLink>
-//         </li>
-//         <li className={css.navItem}>
-//           <NavLink to="d" className={css.navLink}>
-//             Хуки
-//           </NavLink>
-//         </li>
-//         <li className={css.navItem}>
-//           <NavLink to="e" className={css.navLink}>
-//             React Router. React router та поділ коду
-//           </NavLink>
-//         </li>
-//       </ul>
+//       <div className={css.navItem}>
+//         <ReactMenu className={css.reactMenu} />
+//       </div>
 //       <main className={css.reactMain}>
+//         <h1>React</h1>
 //         <Outlet />
 //       </main>
 //     </div>
@@ -39,15 +17,15 @@
 // };
 
 // export default ReactLayout;
+
 import { Outlet } from "react-router-dom";
 import css from "./ReactLayout.module.css";
-import ReactMenu from "./ReactMenu";
 
 const ReactLayout = () => {
   return (
     <div className={css.reactPage}>
-      <ReactMenu />
       <main className={css.reactMain}>
+        <h1>React</h1>
         <Outlet />
       </main>
     </div>

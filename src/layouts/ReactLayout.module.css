@@ -1,8 +1,42 @@
-.reactPage{
+/* .reactPage{
     display: flex;
     
 }
 
 .reactMain{
     margin-left: 130px;
+} */
+
+.reactPage {
+  display: flex;
+  position: relative;
+}
+
+.reactMain {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+/* Стилі для меню, яке з'являється при ховері */
+.reactMenu {
+  position: absolute;
+  top: 50px; /* Відступ від верхнього меню */
+  left: 0;
+  width: 200px; /* Ширина підменю */
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 10;
+}
+
+/* Відображення меню при ховері на пункт "React" */
+.navItem:hover .reactMenu,
+.navItem:focus-within .reactMenu {
+  opacity: 1;
+  visibility: visible;
 }

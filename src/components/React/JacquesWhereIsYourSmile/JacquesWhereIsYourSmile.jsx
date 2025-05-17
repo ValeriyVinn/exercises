@@ -1,103 +1,59 @@
 import Jacques from "./components/Jacques";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import css from "./JacquesWhereIsYourSmile.module.css";
 
-const API_URL = import.meta.env.VITE_API_URL;
-
 const JacquesWhereIsYourSmile = () => {
-  const [codeInput, setCodeInput] = useState("");
-  const [solutions, setSolutions] = useState([]);
-  const [isAccordionOpen, setIsAccordionOpen] = useState(false);
+  // Відновлення стану з localStorage або встановлення за замовчуванням (false)
+  const [isSandboxOpen, setIsSandboxOpen] = useState(
+    () => JSON.parse(localStorage.getItem("isSandboxOpen")) || false
+  );
 
-  const handleCodeChange = (event) => {
-    setCodeInput(event.target.value);
+  // Перемикач стану Sandbox з записом у localStorage
+  const toggleSandbox = () => {
+    setIsSandboxOpen((prev) => {
+      const newState = !prev;
+      localStorage.setItem("isSandboxOpen", JSON.stringify(newState));
+      return newState;
+    });
   };
 
-  const handlePostCode = async () => {
-    if (import.meta.env.MODE === "production") {
-      console.error("Writing data is not allowed in production.");
-      return;
+  // Оновлення стану при завантаженні компонента
+  useEffect(() => {
+    const savedState = JSON.parse(localStorage.getItem("isSandboxOpen"));
+    if (savedState !== null) {
+      setIsSandboxOpen(savedState);
     }
-
-    const exerciseObject = {
-      name: "Jacques Where Is Your Smile",
-      statement: "Create a profile of Jacques.",
-      solution: [codeInput],
-    };
-
-    try {
-      const response = await fetch(`${API_URL}/react`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(exerciseObject),
-      });
-
-      if (response.ok) {
-        console.log("Exercise successfully posted or updated.");
-      } else {
-        console.error("Failed to post or update the exercise.");
-      }
-    } catch (error) {
-      console.error("Error posting the exercise:", error.message);
-    }
-  };
-
-  const toggleAccordion = async () => {
-    const willBeOpen = !isAccordionOpen;
-    setIsAccordionOpen(willBeOpen);
-
-    if (willBeOpen) {
-      try {
-        const response = await fetch(`${API_URL}/react`);
-        if (response.ok) {
-          const data = await response.json();
-          const currentExercise = data.find(
-            (ex) => ex.name === "Jacques Where Is Your Smile"
-          );
-          if (currentExercise) {
-            setSolutions(currentExercise.solution);
-          }
-        } else {
-          console.error("Failed to fetch exercises.");
-        }
-      } catch (error) {
-        console.error("Error fetching solutions:", error.message);
-      }
-    }
-  };
+  }, []);
 
   return (
-    <div>
-      <p>Create a profile of Jacques whereIsYourSmile.</p>
-
-      <Jacques />
-
-      <textarea
-        rows="5"
-        cols="50"
-        className={css.code_input}
-        placeholder="Write your code here"
-        value={codeInput}
-        onChange={handleCodeChange}
-      />
-      <button onClick={handlePostCode}>Post Code</button>
-
+    <div className={css.flex}>
       <div>
-        <button onClick={toggleAccordion}>
-          {isAccordionOpen ? "Hide Solutions" : "Show Solutions"}
+        <p>Create a profile of Jacques whereIsYourSmile.</p>
+        <Jacques />
+      </div>
+
+      <div className={css.solution}>
+        {/* Одна кнопка для відкриття/закриття Sandbox */}
+        <button onClick={toggleSandbox}>
+          {isSandboxOpen ? "Hide Sandbox" : "Show Sandbox"}
         </button>
-        {isAccordionOpen && (
+
+        {/* Пісочниця з'являється при натисканні на кнопку */}
+        {isSandboxOpen && (
           <div className={css.accordion}>
-            <h3>Solutions:</h3>
-            <ul className={css.solutionList}>
-              {solutions.map((solution, index) => (
-                <li key={index} className={css.solutionItem}>
-                  <pre>{solution}</pre>
-                </li>
-              ))}
-            </ul>
+            <iframe
+              src="https://codesandbox.io/embed/3klsqw?view=editor+%2B+preview&module=%2Fsrc%2FApp.js"
+              style={{
+                width: "100%",
+                height: "500px",
+                border: "0",
+                borderRadius: "4px",
+                overflow: "hidden",
+              }}
+              title="Jacques whereIsYourSmile"
+              allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+              sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+            ></iframe>
           </div>
         )}
       </div>
