@@ -10,13 +10,19 @@ setupExercise({
 // 09.05.2025 - 20:40 --score is: 4:30
 // 10.05.2025 - 21:10 --score is: 6:37
 // ! Рішення ----------
-// function greet(name, callback) {
-//   console.log(`Hello, ${name}!`);
+
+// function belatedGreeting(name, callback) {
+//   console.log(`Where is ${name}?`)
 //   setTimeout(() => {
-//     callback();
-//   }, 3000);
+//     callback()
+//   },3000)
+// }
+// // function heIsSick() {
+// //   console.log(`He is sick today.`);
+// // }
+// function behindYou() {
+//   console.log(`Look around, he's behind you`);
 // }
 
-// greet("Alex", () => {
-//   console.log("Sorry, time is up, you have to go.");
-// });
+// // belatedGreeting("Alex", heIsSick)
+// belatedGreeting("Brandon", behindYou)
