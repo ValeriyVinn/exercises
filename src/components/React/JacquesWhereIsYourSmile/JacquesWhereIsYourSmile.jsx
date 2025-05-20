@@ -27,7 +27,7 @@ const JacquesWhereIsYourSmile = () => {
 
   return (
     <div className={css.flex}>
-      <div>
+      <div className={css.display}>
         <p>Create a profile of Jacques whereIsYourSmile.</p>
         <Jacques />
       </div>
@@ -62,3 +62,67 @@ const JacquesWhereIsYourSmile = () => {
 };
 
 export default JacquesWhereIsYourSmile;
+
+
+// import Jacques from "./components/Jacques";
+// import { useState, useEffect } from "react";
+// import ErrorBoundary from "../0-Shared/ErrorBoundary/ErrorBoundary";
+// import css from "./JacquesWhereIsYourSmile.module.css";
+
+// const JacquesWhereIsYourSmile = () => {
+//   const [isSandboxOpen, setIsSandboxOpen] = useState(
+//     () => JSON.parse(localStorage.getItem("isSandboxOpen")) || false
+//   );
+
+//   const toggleSandbox = () => {
+//     setIsSandboxOpen((prev) => {
+//       const newState = !prev;
+//       localStorage.setItem("isSandboxOpen", JSON.stringify(newState));
+//       return newState;
+//     });
+//   };
+
+//   useEffect(() => {
+//     const savedState = JSON.parse(localStorage.getItem("isSandboxOpen"));
+//     if (savedState !== null) {
+//       setIsSandboxOpen(savedState);
+//     }
+//   }, []);
+
+//   return (
+//     <div className={css.flex}>
+//       <div className={css.display}>
+//         <p>Create a profile of Jacques whereIsYourSmile.</p>
+//         <ErrorBoundary>
+//           <Jacques />
+//         </ErrorBoundary>
+//       </div>
+
+//       <div className={css.solution}>
+//         <button onClick={toggleSandbox}>
+//           {isSandboxOpen ? "Hide Sandbox" : "Show Sandbox"}
+//         </button>
+
+//         {isSandboxOpen && (
+//           <div className={css.accordion}>
+//             <iframe
+//               src="https://codesandbox.io/embed/3klsqw?view=editor+%2B+preview&module=%2Fsrc%2FApp.js"
+//               style={{
+//                 width: "100%",
+//                 height: "500px",
+//                 border: "0",
+//                 borderRadius: "4px",
+//                 overflow: "hidden",
+//               }}
+//               title="Jacques whereIsYourSmile"
+//               allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+//               sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+//             ></iframe>
+//           </div>
+//         )}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default JacquesWhereIsYourSmile;

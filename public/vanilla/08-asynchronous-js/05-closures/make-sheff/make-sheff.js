@@ -16,6 +16,7 @@ const makeSheff = function (name) {
 }
 
 const robert = makeSheff("Robert")
+console.log(robert)
 const zlatan = makeSheff("Zlatan")
 
 robert("spaghetti")

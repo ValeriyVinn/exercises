@@ -11,12 +11,13 @@ setupExercise({
 // function createCounter() {
 //   let count = 0;
 //   return function () {
-//     count++;
+//     count += 1;
 //     console.log(`Current count: ${count}`);
 //   };
 // }
 
 // const counter = createCounter();
+// console.log(counter);
 // counter(); // Current count: 1
 // counter(); // Current count: 2
 // counter(); // Current count: 3

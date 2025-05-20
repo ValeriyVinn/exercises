@@ -40,7 +40,7 @@ setupExercise({
 //   { name: "pear", quantity: 15, isFresh: false },
 // ];
 // const freshFruits = function (fruit) {
-//   return fruit.isFresh === true;
+//   return fruit.isFresh === false;
 // };
 // const result3 = filter(fruits, freshFruits);
 // console.log(result3);
