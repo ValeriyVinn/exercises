@@ -1,0 +1,31 @@
+.toDoList {
+  list-style: none;
+}
+
+.addTask {
+  display: flex;
+  border: 1px solid black;
+  padding: 5px 10px;
+  justify-content: space-between;
+ 
+}
+.currentTask {
+  display: flex;
+  border: 1px solid black;
+  padding: 5px 10px;
+  justify-content: space-between;
+    background-color: rgb(227, 248, 248);
+
+}
+
+.editTask {
+  display: flex;
+  border: 1px solid black;
+  padding: 5px 10px;
+  justify-content: space-between;
+   background-color: lightpink;
+}
+
+.secondButton{
+  margin-left: 10px;
+}
