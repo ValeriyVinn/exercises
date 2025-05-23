@@ -7,10 +7,10 @@ setupExercise({
 });
 
 // ! Рішення ----------
-// function isWeekend(date) {
-//   const day = date.getDay(); // 0 = Sunday, 6 = Saturday
-//   return day === 0 || day === 6;
-// }
+function isWeekend(date) {
+  const day = date.getDay(); // 0 = Sunday, 6 = Saturday
+  return day === 0 || day === 6;
+}
 
-// const someDate = new Date("2025-05-24"); // субота
-// console.log(isWeekend(someDate) ? "Вихідний день" : "Робочий день");
+const someDate = new Date("2025-05-24"); // субота
+console.log(isWeekend(someDate) ? "Вихідний день" : "Робочий день");
