@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import css from "./ToDoList.module.css";
+
 function ToDoList() {
   const [todos, setTodos] = useState(() => {
     const saved = localStorage.getItem("todos");
@@ -46,12 +47,14 @@ function ToDoList() {
   };
 
   return (
-    <div style={{ padding: "1rem" }}>
+    <div>
+      <h1 className={css.readWriteHeader}>read/write - 20/80</h1>
       <div className={css.addTask}>
         <input
+          className={css.taskInput}
           value={newTask}
           onChange={(e) => setNewTask(e.target.value)}
-          placeholder="Нове завдання"
+          placeholder="New task"
         />
         <button onClick={addTodo}>Add</button>
       </div>
@@ -62,12 +65,18 @@ function ToDoList() {
             {editingId === todo.id ? (
               <div className={css.editTask}>
                 <input
+                  className={css.taskInput}
                   value={editingText}
                   onChange={(e) => setEditingText(e.target.value)}
                 />
                 <div>
                   <button onClick={() => saveEdit(todo.id)}>Save</button>
-                  <button onClick={() => setEditingId(null)}>Cancel</button>
+                  <button
+                    className={css.secondButton}
+                    onClick={() => setEditingId(null)}
+                  >
+                    Cancel
+                  </button>
                 </div>
               </div>
             ) : (
@@ -77,7 +86,12 @@ function ToDoList() {
                   <button onClick={() => startEditing(todo.id, todo.text)}>
                     Edit
                   </button>
-                  <button className={css.secondButton} onClick={() => deleteTodo(todo.id)}>Remove</button>
+                  <button
+                    className={css.secondButton}
+                    onClick={() => deleteTodo(todo.id)}
+                  >
+                    Remove
+                  </button>
                 </div>
               </div>
             )}

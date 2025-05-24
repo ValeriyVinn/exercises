@@ -1,31 +1,44 @@
+.readWriteHeader {
+  color: darkgreen;
+  margin-bottom: 10px;
+  text-align: end;
+}
+
 .toDoList {
   list-style: none;
 }
 
 .addTask {
   display: flex;
-  border: 1px solid black;
+  border: 2px solid green;
+  border-radius: 3px;
   padding: 5px 10px;
   justify-content: space-between;
- 
+  background-color: lightgreen;
 }
+.taskInput {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
 .currentTask {
   display: flex;
-  border: 1px solid black;
+  border: 2px solid blue;
+  border-radius: 3px;
   padding: 5px 10px;
   justify-content: space-between;
-    background-color: rgb(227, 248, 248);
-
+  background-color: rgb(227, 248, 248);
 }
 
 .editTask {
   display: flex;
-  border: 1px solid black;
+  border: 2px solid red;
+  border-radius: 3px;
   padding: 5px 10px;
   justify-content: space-between;
-   background-color: lightpink;
+  background-color: pink;
 }
 
-.secondButton{
+.secondButton {
   margin-left: 10px;
 }

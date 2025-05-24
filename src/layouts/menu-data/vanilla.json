@@ -415,9 +415,17 @@
       {
         "title": "Date object",
         "tasks": [
-          { "title": "Task 1", "path": "" },
-          { "title": "Task 2", "path": "" },
-          { "title": "Is weekend", "path": "vanilla/10-date-and-time/01-date-object/is-weekend/is-weekend.html" }
+          {
+            "title": "Stand in days between two dates",
+            "path": "vanilla/10-date-and-time/01-date-object/stand-in-days-between-two-dates/stand-in-days-between-two-dates.html"
+          },
+          { "title": "Countdown timer (to event)", "path": "vanilla/10-date-and-time/01-date-object/countdown-timer-to-event/countdown-timer-to-event.html" },
+          { "title": "Сlock in the interface", "path": "vanilla/10-date-and-time/01-date-object/clock-in-the-interface/clock-in-the-interface.html" },
+          { "title": "User's last login date", "path": "vanilla/10-date-and-time/01-date-object/user-last-visit-date/user-last-visit-date.html" },
+          {
+            "title": "Is weekend",
+            "path": "vanilla/10-date-and-time/01-date-object/is-weekend/is-weekend.html"
+          }
         ]
       },
       {
