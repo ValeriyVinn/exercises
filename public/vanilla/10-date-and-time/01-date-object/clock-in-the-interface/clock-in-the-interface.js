@@ -7,16 +7,8 @@ setupExercise({
 });
 
 // ! Рішення ----------
-// function updateClock() {
-//   const now = new Date();
-//   const time = now.toLocaleTimeString();
-//   document.getElementById("clock").textContent = time;
-// }
+// const clockEl = document.getElementById("clock");
 
-// setInterval(updateClock, 1000);
-// updateClock(); // одразу показати перше значення
-
-
-
-
-
+// setInterval(() => {
+//   clockEl.textContent = new Date().toLocaleTimeString();
+// }, 1000);

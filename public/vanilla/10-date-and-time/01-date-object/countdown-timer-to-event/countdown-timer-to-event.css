@@ -19,6 +19,7 @@ p {
   overflow: auto;
 }
 .solutions {
+  max-width: 600px;
   border: 1px solid rgb(224, 224, 224);
   border-radius: 5px;
   height: fit-content;
@@ -51,6 +52,18 @@ p {
 
 .red {
   color: red;
+}
+
+.countdown-timer {
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 24px;
+  font-family: monospace;
+  text-align: center;
+  line-height: 40px;
 }
 
 /* ? Modal Window  */

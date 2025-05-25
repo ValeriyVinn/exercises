@@ -7,10 +7,15 @@ setupExercise({
 });
 
 // ! Рішення ----------
-// const today = new Date();
-// const newYear = new Date(today.getFullYear() + 1, 0, 1); // 1 січня наступного року
 
-// const diffInMs = newYear - today;
-// const diffInDays = Math.ceil(diffInMs / (1000 * 60 * 60 * 24));
+// const event = "Summer"
+// const daysEl = document.getElementById("days");
+// const eventEl = document.getElementById("event")
 
-// console.log(`До Нового року залишилось: ${diffInDays} днів`);
+// const dateTheNY = new Date("2025-06-01 00:00:00")
+// const dateNow = new Date()
+// const diff = dateTheNY-dateNow
+// const days = Math.ceil(diff / (1000 * 60 * 60 * 24))
+
+// eventEl.textContent = event
+// daysEl.textContent = `${days} days`
