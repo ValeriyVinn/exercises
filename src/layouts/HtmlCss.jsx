@@ -1,6 +1,6 @@
-import vanillaMenu from "./menu-data/vanilla.json";
+import htmlCssMenu from "./menu-data/html-css.json";
 
-export default function VanillaMenu() {
+export default function HtmlCssMenu() {
   const renderLink = (title, path) => (
     <a
       href={path ? `${import.meta.env.BASE_URL}${path}` : "#"}
@@ -35,7 +35,7 @@ export default function VanillaMenu() {
     <div style={{ padding: "5px" }}>
       {/* <h2>JavaScript Examples</h2> */}
       <ol>
-        {vanillaMenu.map((section, idx) => (
+        {htmlCssMenu.map((section, idx) => (
           <li key={idx}>
             {renderLink(section.title, section.path)}
             {section.children && renderChildren(section.children)}
@@ -45,4 +45,3 @@ export default function VanillaMenu() {
     </div>
   );
 }
-

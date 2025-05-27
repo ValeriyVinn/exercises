@@ -1,15 +1,15 @@
 [
   {
     "title": "Basics",
-    "path": "vanilla/01-basics/basics.html",
+    "path": "vanilla/java-script/01-basics/basics.html",
     "children": [
       {
         "title": "Variables and data types",
-        "path": "vanilla/01-basics/basics.html",
+        "path": "vanilla/java-script/01-basics/basics.html",
         "tasks": [
           {
             "title": "Personal info card",
-            "path": "vanilla/01-basics/01-variables-and-data-types/personal-info-card/personal-info-card.html"
+            "path": "vanilla/java-script/01-basics/01-variables-and-data-types/personal-info-card/personal-info-card.html"
           },
           {
             "title": "Type checker",
