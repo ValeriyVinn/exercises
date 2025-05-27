@@ -112,3 +112,120 @@
 
 29. **CSS-модулі / CSS-in-JS (огляд)**  
     Ізоляція стилів у компонентах, приклад з React.
+
+    <!--!  English ------------------------------------- -->
+
+# HTML + CSS Learning Plan (with Topics)
+
+## 🔹 Basics and Structure
+
+1. **HTML Basics**  
+   Basic tags, page structure, common attributes.
+
+2. **HTML Semantics**  
+   Semantic tags (`<header>`, `<section>`, `<article>`), SEO, accessibility.
+
+3. **CSS Selectors and Color**  
+   Basic selectors and color-related properties.
+
+4. **Text, Fonts, and Typography**  
+   Styling fonts, font size, spacing, alignment, decoration.
+
+---
+
+## 🔹 Layout and CSS Models
+
+5. **Box Model**  
+   `content`, `padding`, `border`, `margin`, block and inline behavior.
+
+6. **Positioning (`position`, `z-index`)**  
+   Types of positioning: `static`, `relative`, `absolute`, `fixed`, `sticky`.
+
+7. **Flexbox**  
+   Building 1D layouts with Flexbox.
+
+8. **Grid Layout**  
+   Creating 2D layouts using CSS Grid.
+
+9. **Flexbox vs Grid**  
+   When and why to use each layout system.
+
+---
+
+## 🔹 Interactivity and Effects
+
+10. **Pseudo-elements and Pseudo-classes**  
+    Using `:hover`, `:focus`, `::before`, `::after`, etc.
+
+11. **Backgrounds and Gradients**  
+    Background images, gradients, and layering.
+
+12. **Decorative Elements**  
+    Shadows, borders, border-radius, opacity, CSS filters.
+
+13. **Vector Graphics (SVG, Sprites)**  
+    Embedding SVGs, using sprite sheets, scalable vector icons.
+
+14. **Animations and Transitions**  
+    Smooth style changes using `transition`, `animation`, `@keyframes`.
+
+15. **Positioned Elements**  
+    Fixed headers, sticky navs, floating buttons, etc.
+
+---
+
+## 🔹 Forms and Interaction
+
+16. **Form Elements**  
+    Inputs, selects, checkboxes, buttons, form layout.
+
+17. **Form Validation**  
+    Using HTML validation attributes like `required`, `pattern`.
+
+18. **Accessibility (a11y)**  
+    ARIA roles, keyboard navigation, screen reader support.
+
+---
+
+## 🔹 Code Organization and Maintenance
+
+19. **CSS Methodologies (BEM, etc.)**  
+    Naming conventions, separation of concerns.
+
+20. **Project Architecture and CSS Structure**  
+    File structure, resets/normalize, logical folder grouping.
+
+21. **SASS Preprocessor**  
+    Variables, nesting, mixins, partials, and imports.
+
+22. **CSS Variables (`--var`)**  
+    Using native CSS variables for theming and reuse.
+
+---
+
+## 🔹 Responsiveness and Graphics
+
+23. **Responsive Layout**  
+    Media queries, fluid grids, mobile-first approach.
+
+24. **Responsive Graphics**  
+    `srcset`, `<picture>`, retina-ready images, WebP support.
+
+25. **Fonts and Icons**  
+    Google Fonts, custom fonts, icon fonts, SVG icons.
+
+---
+
+## 🔹 Tools and Optimization
+
+26. **DevTools and CSS Debugging**  
+    Inspecting styles, testing responsive layouts, performance checks.
+
+27. **CSS Optimization**  
+    Minification, removing unused CSS, critical CSS.
+
+28. **PostCSS and Autoprefixer**  
+    Ensuring cross-browser compatibility automatically.
+
+29. **CSS Modules / CSS-in-JS (Overview)**  
+    Scoped styles and modular approach (mostly in React/JS apps).

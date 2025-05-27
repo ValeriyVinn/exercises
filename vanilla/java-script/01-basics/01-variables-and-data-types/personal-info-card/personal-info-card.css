@@ -1,4 +1,4 @@
-/* h1,
+h1,
 h2,
 h3,
 h4,
@@ -24,11 +24,11 @@ p {
   width: 80vw;
   flex-grow: 1;
   overflow: auto;
-} */
+}
 
 /* ? Modal Window  */
 
-/* .modal-overlay {
+.modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -62,4 +62,4 @@ p {
 .modal-overlay.active {
   opacity: 1;
   visibility: visible;
-} */
+}
