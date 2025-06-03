@@ -82,7 +82,7 @@
         "tasks": [
           {
             "title": "Basic 2v2 grid",
-            "path": "vanilla/html-css/02-layout-and-css-models/04-grid-layout/basic-2v2-grid/basic-2v2-grid.html"
+            "path": "/vanilla/html-css/02-layout-and-css-models/04-grid-layout/basic-2v2-grid/basic-2v2-grid.html"
           },
           { "title": "Task 2", "path": "" },
           { "title": "Task 3", "path": "" }
@@ -138,23 +138,23 @@
         "tasks": [
           {
             "title": "Icons on the product card",
-            "path": "vanilla/html-css/03-interactivity-and-effects/05-animations-and-transitions/icons-on-the-product-card/icons-on-the-product-card.html"
+            "path": "/vanilla/html-css/03-interactivity-and-effects/05-animations-and-transitions/icons-on-the-product-card/icons-on-the-product-card.html"
           },
           {
             "title": "Overlay",
-            "path": "vanilla/html-css/03-interactivity-and-effects/05-animations-and-transitions/overlay/overlay.html"
+            "path": "/vanilla/html-css/03-interactivity-and-effects/05-animations-and-transitions/overlay/overlay.html"
           },
           {
             "title": "Fixed header",
-            "path": "vanilla/html-css/03-interactivity-and-effects/05-animations-and-transitions/fixed-header/fixed-header.html"
+            "path": "/vanilla/html-css/03-interactivity-and-effects/05-animations-and-transitions/fixed-header/fixed-header.html"
           },
           {
             "title": "Modal window",
-            "path": "vanilla/html-css/03-interactivity-and-effects/05-animations-and-transitions/modal-window/modal-window.html"
+            "path": "/vanilla/html-css/03-interactivity-and-effects/05-animations-and-transitions/modal-window/modal-window.html"
           },
           {
             "title": "Dropdown menu",
-            "path": "vanilla/html-css/03-interactivity-and-effects/05-animations-and-transitions/dropdown-menu/dropdown-menu.html"
+            "path": "/vanilla/html-css/03-interactivity-and-effects/05-animations-and-transitions/dropdown-menu/dropdown-menu.html"
           }
         ]
       },
