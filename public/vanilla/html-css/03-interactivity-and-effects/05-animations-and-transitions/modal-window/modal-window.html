@@ -10,6 +10,9 @@
   <body>
     <a href="/exercises/">Home</a>
 
+        <div id="menu-container" class="html-css-menu"></div>
+
+
     <div class="flex">
       <div class="side">
         <button class="open-btn" id="openModal">Send solution</button>
@@ -82,5 +85,10 @@
     ></script> -->
     <script type="module" src="./modal-window.js"></script>
     <script type="module" src="../../../../scripts/modal/modal.js"></script>
+
+    <script type="module">
+  import { loadMenu } from "../../../../../data/menu/html-css.js";
+  loadMenu("html-css");
+</script>
   </body>
 </html>

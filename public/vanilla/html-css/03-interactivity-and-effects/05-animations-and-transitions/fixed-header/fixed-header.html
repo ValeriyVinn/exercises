@@ -9,6 +9,7 @@
   </head>
   <body>
     <a href="/exercises/">Home</a>
+    <div id="menu-container" class="html-css-menu"></div>
 
     <div class="flex">
       <div class="side">
@@ -97,7 +98,6 @@
           facilis corrupti, ex perspiciatis. Veritatis totam voluptatem eveniet.
         </p>
 
-
         <!-- solution -->
       </div>
       <div class="grow">
@@ -116,5 +116,10 @@
     ></script> -->
     <script type="module" src="./fixed-header.js"></script>
     <script type="module" src="../../../../scripts/modal/modal.js"></script>
+
+    <script type="module">
+  import { loadMenu } from "../../../../../data/menu/html-css.js";
+  loadMenu("html-css");
+</script>
   </body>
 </html>
