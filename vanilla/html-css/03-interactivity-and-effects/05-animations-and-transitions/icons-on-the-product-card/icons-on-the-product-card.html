@@ -8,20 +8,9 @@
     <title>Icons on the product card</title>
   </head>
   <body>
-    <header>
-      <nav class="nav">
-        <a href="vanilla/html-css/03-interactivity-and-effects/06-positioned-elements/dropdown-menu/dropdown-menu.html#/html-css">Home</a>
-        <ul class="nav-list">
-          <li class="nav-list-item"><a href="http://localhost:5173/vanilla/html-css/03-interactivity-and-effects/05-animations-and-transitions/icons-on-the-product-card/icons-on-the-product-card.html">Icons on the product card</a></li>
-          <li class="nav-list-item"><a href="http://localhost:5173/exercises/#/html-css">Link to css menu</a></li>
-          <li class="nav-list-item"><a href="">wret</a></li>
-          <li class="nav-list-item"><a href="">wret</a></li>
-          <li class="nav-list-item"><a href="">wret</a></li>
-          <li class="nav-list-item"><a href="">wrt</a></li>
-          <li class="nav-list-item"><a href="http://localhost:5173/vanilla/html-css/03-interactivity-and-effects/05-animations-and-transitions/dropdown-menu/dropdown-menu.html">Dropdown menu</a></li>
-        </ul>
-      </nav>
-    </header>
+    <header><a href="/exercises/">Home</a></header>
+
+    <div id="menu-container" class="html-css-menu"></div>
 
     <div class="flex">
       <div class="side">
@@ -102,5 +91,10 @@
     ></script> -->
     <script type="module" src="./icons-on-the-product-card.js"></script>
     <script type="module" src="../../../../scripts/modal/modal.js"></script>
+
+    <script type="module">
+  import { loadMenu } from "../../../../../data/menu/html-css.js";
+  loadMenu("html-css");
+</script>
   </body>
 </html>

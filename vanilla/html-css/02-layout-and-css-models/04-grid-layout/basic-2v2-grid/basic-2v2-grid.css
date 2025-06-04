@@ -28,44 +28,72 @@ p {
   flex-grow: 1;
 }
 
-.buttons {
+/* menu --------------------*/
+/* Основне меню */
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  justify-content: space-around;
+  gap: 1rem;
 }
 
-.action-btn {
-  min-width: 100px;
-  padding: 20px;
+.menu-group {
+  position: relative;
+}
+
+.menu-title {
   cursor: pointer;
-  border-radius: 5px;
-  color: orange;
-  font-size: 22px;
-  font-weight: 600;
-  border: 2px solid orange;
-  background-color: antiquewhite;
+  font-weight: bold;
+  padding: 0.5rem;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
 }
 
-.yellow {
-  background-color: yellow;
+/* Підменю */
+.submenu {
+  list-style: none;
+  padding: 0.5rem;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  z-index: 10;
+  min-width: 200px;
 }
 
-.red {
-  color: red;
+.menu-group:hover .submenu {
+  display: block;
 }
 
-.clock-in-the-interface {
-  /* display: table-cell; */
-  width: 150px;
-  height: 40px;
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-size: 24px;
-  font-family: monospace;
-  text-align: center;
-  line-height: 40px;
-  /* vertical-align: middle; */
+/* Підзаголовки та посилання */
+.submenu-link, .submenu-title, .task-link {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  color: #333;
 }
+
+.submenu-link:hover, .task-link:hover {
+  background-color: #f0f0f0;
+}
+
+/* Завдання */
+.task-list {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.task-item {
+  margin: 0;
+}
+
+/* menu --------------------*/
+
 
 /* solution */
 .grid-container {
