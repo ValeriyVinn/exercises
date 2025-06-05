@@ -4,16 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./personal-info-card.css" />
-        <link rel="stylesheet" href="../../../../../data/menu/java-script.css">
-    <title>Personal Info Card</title>
+    <link rel="stylesheet" href="./type-checker.css" />
+        <link rel="stylesheet" href="../../../../../data/menu/java-script.css" />
+    <title>Type Checker</title>
   </head>
   <body>
     <a href="/exercises/">Home</a>
 <div id="menu-container" class="html-css-menu"></div>
     <div class="flex">
       <div class="side">
-
         <button class="open-btn" id="openModal">Send solution</button>
         <div class="modal-overlay" id="backdrop">
           <div class="modal">
@@ -30,15 +29,21 @@
         </div>
         <br />
         <button id="get-btn">Get solution</button>
-
-        <h1>Personal Info Card</h1>
+        <!-- conditions of the problem -->
+        <h1>Type Checker</h1>
 
         <p>
-          Create variables to store your name, age, and whether you’re a student
-          (true/false). Print a message to the console using these values.
+          Create variables of each primitive type (string, number, boolean,
+          undefined, null). Use typeof to print the type of each.
         </p>
-
+        <h2>Requirements:</h2>
+        <ul>
+          <li>Declare 5 variables.</li>
+          <li>Use console.log(typeof variable) to show the type.</li>
+        </ul>
+        <!-- conditions of the problem -->
       </div>
+
       <div class="solutions"><ul id="solutions-list"></ul></div>
     </div>
 
@@ -46,12 +51,13 @@
       type="module"
       src="../../../../scripts/vanilla-exercise-handler.js"
     ></script>
-    <script type="module" src="./personal-info-card.js"></script>
+    <script type="module" src="./type-checker.js"></script>
     <script type="module" src="../../../../scripts/modal/modal.js"></script>
 
         <script type="module">
-  import { loadMenu } from "../../../../../data/menu/java-script.js";
-  loadMenu("javascript");
-</script>
+      import { loadMenu } from "../../../../../data/menu/java-script.js";
+      loadMenu("javascript");
+    </script>
+    
   </body>
 </html>
