@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./list-data-in-the-console.css" />
+
+        <link rel="stylesheet" href="../../../../../data/menu/java-script.css" />
     <title>List data in the console</title>
   </head>
   <body>
     <a href="/exercises/">Home</a>
+    <div id="menu-container" class="html-css-menu"></div>
 
     <div class="flex">
       <div class="side">
@@ -136,5 +139,10 @@ Elements: 5</code></pre>
     ></script>
     <script type="module" src="./list-data-in-the-console.js"></script>
     <script type="module" src="../../../../scripts/modal/modal.js"></script>
+
+        <script type="module">
+      import { loadMenu } from "../../../../../data/menu/java-script.js";
+      loadMenu("javascript");
+    </script>
   </body>
 </html>
