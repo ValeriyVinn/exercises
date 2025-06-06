@@ -12,14 +12,14 @@ const SharedLayout = () => {
           </NavLink>
         </li>
         <li className={css.navItem}>
-          <NavLink to="html-css" className={css.navLink}>
+          <a href="/vanilla/html-css/html-css.html" className={css.navLink}>
             HtmlCss
-          </NavLink>
+          </a>
         </li>
         <li className={css.navItem}>
-          <NavLink to="vanilla-js" className={css.navLink}>
+          <a href="/vanilla/java-script/java-script.html" className={css.navLink}>
             JavaScript
-          </NavLink>
+          </a>
         </li>
         <li className={css.navItem}>
           <NavLink to="react" className={css.navLink}>

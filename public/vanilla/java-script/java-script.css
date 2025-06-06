@@ -1,4 +1,50 @@
-.menuList {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+.nav{
+  display: flex;
+}
+.nav-list{
+  display: flex;
+  
+}
+.nav-list-item{
+  padding: 5px;
+
+}
+.nav-list:not(:last-child){
+  margin-right: 100px;
+
+}
+.flex {
+  display: flex;
+}
+.side {
+  width: 600px;
+  height: 90vh;
+  overflow: auto;
+}
+.solutions {
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 5px;
+  height: fit-content;
+  overflow: auto;
+}
+.grow {
+  flex-grow: 1;
+}
+
+/* menu --------------------*/
+/* Основне меню */
+.menu-list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -6,11 +52,11 @@
   gap: 1rem;
 }
 
-.menuGroup {
+.menu-group {
   position: relative;
 }
 
-.menuTitle {
+.menu-title {
   cursor: pointer;
   font-weight: bold;
   padding: 0.5rem;
@@ -34,31 +80,30 @@
   min-width: 200px;
 }
 
-.menuGroup:hover .submenu {
+.menu-group:hover .submenu {
   display: block;
 }
 
 /* Підзаголовки та посилання */
-.submenuLink,
-.submenuTitle,
-.taskLink {
+.submenu-link, .submenu-title, .task-link {
   display: block;
   padding: 0.25rem 0.5rem;
   text-decoration: none;
   color: #333;
 }
 
-.submenuLink:hover,
-.taskLink:hover {
+.submenu-link:hover, .task-link:hover {
   background-color: #f0f0f0;
 }
 
 /* Завдання */
-.taskList {
+.task-list {
   list-style: none;
   padding-left: 1rem;
 }
 
-.taskItem {
+.task-item {
   margin: 0;
 }
+
+/* menu --------------------*/
