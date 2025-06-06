@@ -34,14 +34,15 @@ export default function VanillaMenu() {
   return (
     <div style={{ padding: "5px" }}>
       {/* <h2>JavaScript Examples</h2> */}
-      <ol>
+      {/* <ol>
         {vanillaMenu.map((section, idx) => (
           <li key={idx}>
             {renderLink(section.title, section.path)}
             {section.children && renderChildren(section.children)}
           </li>
         ))}
-      </ol>
+      </ol> */}
+      <a href="/vanilla/java-script/java-script.html">Java-Script Home</a>
     </div>
   );
 }
