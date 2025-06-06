@@ -42,7 +42,7 @@ export default function VanillaMenu() {
           </li>
         ))}
       </ol> */}
-      <a href="/vanilla/java-script/java-script.html">Java-Script Home</a>
+      <a href="vanilla/java-script/java-script.html">Java-Script Home</a>
     </div>
   );
 }

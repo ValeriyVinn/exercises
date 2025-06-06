@@ -47,7 +47,7 @@ export default function HtmlCssMenu() {
           </li>
         ))}
       </ol> */}
-      <a href="/vanilla/html-css/html-css.html">Html-css Home</a>
+      <a href="vanilla/html-css/html-css.html">Html-css Home</a>
     </div>
   );
 }
