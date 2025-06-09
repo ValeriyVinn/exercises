@@ -33,24 +33,18 @@ p {
   justify-content: space-around;
 }
 
-.action-btn {
-  min-width: 100px;
-  padding: 20px;
-  cursor: pointer;
+.countdown-timer-in-the-interface {
+  /* display: table-cell; */
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid black;
   border-radius: 5px;
-  color: orange;
-  font-size: 22px;
-  font-weight: 600;
-  border: 2px solid orange;
-  background-color: antiquewhite;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
-.red {
-  color: red;
+  font-size: 24px;
+  font-family: monospace;
+  text-align: center;
+  line-height: 40px;
+  /* vertical-align: middle; */
 }
 
 /* ? Modal Window  */

@@ -8,20 +8,21 @@ setupExercise({
 });
 
 // ! Рішення ----------
+// const countdownTimerEl = document.getElementById("countdown-timer");
 
-// function countdown(start, callback) {
-//   console.log("Get Ready!");
+// const countdownTimer = function (start, callback) {
 //   let current = start;
+//   countdownTimerEl.textContent = "Get ready?";
 //   const timer = setInterval(() => {
-//     console.log(current);
+//     countdownTimerEl.textContent = current;
 //     current -= 1;
-//     if (current <= 0) {
+//     if (current < 0) {
 //       clearInterval(timer);
 //       callback();
 //     }
 //   }, 1000);
-// }
+// };
 
-// countdown(5, () => {
-//   console.log("Lets gooo!");
+// countdownTimer(10, () => {
+//   countdownTimerEl.textContent = "Let's go!";
 // });
