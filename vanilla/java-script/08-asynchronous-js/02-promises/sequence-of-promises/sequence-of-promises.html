@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./sequence-of-promises.css" />
-        <link rel="stylesheet" href="../../../../../data/menu/java-script.css" />
+    <link rel="stylesheet" href="../../../../../data/menu/java-script.css" />
     <title>Sequence of promises</title>
   </head>
   <body>
@@ -34,9 +34,14 @@
         <h1 class="header">Sequence of promises</h1>
 
         <p>
-          Create a sequence of two promises: the first waits for 1 second, the second for 2 seconds.
+          Create a sequence of two promises: the first waits for 1 second, the
+          second for 2 seconds.
         </p>
-
+        <h1 class="typing-header">
+          <span class="typing-header-item message" id="typing-header-message"></span>
+          <span class="typing-header-item dollar" id="typing-header-dollar"></span>
+          <span class="typing-header-item answer" id="typing-header-answer"></span>
+        </h1>
         <!-- conditions of the problem -->
       </div>
       <div class="grow">
@@ -56,7 +61,7 @@
     <script type="module" src="./sequence-of-promises.js"></script>
     <script type="module" src="../../../../scripts/modal/modal.js"></script>
 
-        <script type="module">
+    <script type="module">
       import { loadMenu } from "../../../../../data/menu/java-script.js";
       loadMenu("javascript");
     </script>
