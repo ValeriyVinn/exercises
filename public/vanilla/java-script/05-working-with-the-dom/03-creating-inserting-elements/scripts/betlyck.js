@@ -13,7 +13,9 @@ const content = `
   <p class="practice">Vanilla</p>
   <p class="practice">React</p>
   <p class="practice">Node</p>
-  <p class="practice">Projects</p>
+  <p class="practice">Pet-proj.</p>
+  <p class="practice">Com-proj.</p>
+
 `;
 
 oneBetlyck.forEach((el) => {

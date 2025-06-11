@@ -19,3 +19,12 @@ setupExercise({
 // }
 
 // isEven(12).then(console.log).catch(console.error);
+
+
+// function isEven(number) {
+//   return new Promise((resolve, reject) => {
+//     number%2===0? resolve("Even number") : reject("Something else")
+//   })
+
+// }
+// isEven(5).then(console.log).catch(console.error)

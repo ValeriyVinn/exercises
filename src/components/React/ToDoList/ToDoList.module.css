@@ -42,3 +42,9 @@
 .secondButton {
   margin-left: 10px;
 }
+
+.message{
+  display: flex;
+  padding: 0px 50px;
+  justify-content: space-between;
+}

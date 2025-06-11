@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import TypingMessage from "../IfYouWantCode/IfYouWantCode";
 import css from "./ToDoList.module.css";
 
 function ToDoList() {
@@ -48,7 +49,11 @@ function ToDoList() {
 
   return (
     <div>
-      <h1 className={css.readWriteHeader}>read/write - 20/80</h1>
+      <div className={css.message}>
+        <TypingMessage />
+        <h1 className={css.readWriteHeader}>read/write - 20/80</h1>
+      </div>
+
       <div className={css.addTask}>
         <input
           className={css.taskInput}
