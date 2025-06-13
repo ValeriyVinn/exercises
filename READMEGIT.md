@@ -239,3 +239,9 @@ git push origin main
 npm run build
 npm run deploy
 ```
+
+## 6. Комміт і деплой без GitHub Pages
+```sh
+git add .
+git commit -m "Update components" 
+```

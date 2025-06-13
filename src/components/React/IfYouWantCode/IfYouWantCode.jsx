@@ -118,7 +118,7 @@ export default function TypingMessage({ message = "If you want code" }) {
   }, [charIndex, message]);
 
   return (
-    <h1 className="typing-header">
+    <h1 className={css.typingHeader}>
       <span className={css.message}>{typedText}</span>
       <span className={`${css.dollar} ${css.scaleInCenter}`}>
         {showDollar && "$$$"}
