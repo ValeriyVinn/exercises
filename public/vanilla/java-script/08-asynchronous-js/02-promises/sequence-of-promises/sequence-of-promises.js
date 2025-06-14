@@ -119,38 +119,38 @@ setupExercise({
 // runningString("If you want code");
 
 
-const typing = {
-  messageEl: document.getElementById("typing-header-message"),
-  dollarEl: document.getElementById("typing-header-dollar"),
-  answerEl: document.getElementById("typing-header-answer"),
+// const typing = {
+//   messageEl: document.getElementById("typing-header-message"),
+//   dollarEl: document.getElementById("typing-header-dollar"),
+//   answerEl: document.getElementById("typing-header-answer"),
 
-  type(text, onComplete) {
-    this.messageEl.textContent = "";
-    const letters = text.split("");
-    let index = 0;
+//   type(text, onComplete) {
+//     this.messageEl.textContent = "";
+//     const letters = text.split("");
+//     let index = 0;
 
-    const interval = setInterval(() => {
-      this.messageEl.textContent += letters[index];
-      index++;
-      if (index >= letters.length) {
-        clearInterval(interval);
-        if (onComplete) onComplete();
-      }
-    }, 150);
-  },
+//     const interval = setInterval(() => {
+//       this.messageEl.textContent += letters[index];
+//       index++;
+//       if (index >= letters.length) {
+//         clearInterval(interval);
+//         if (onComplete) onComplete();
+//       }
+//     }, 150);
+//   },
 
-  run(messageText) {
-    this.dollarEl.textContent = "";
-    this.answerEl.textContent = "";
-    this.type(messageText, () => {
-      setTimeout(() => {
-        this.dollarEl.textContent = "$$$";
-      }, 1300);
-      setTimeout(() => {
-        this.answerEl.textContent = "you've got it";
-      }, 2000);
-    });
-  },
-};
+//   run(messageText) {
+//     this.dollarEl.textContent = "";
+//     this.answerEl.textContent = "";
+//     this.type(messageText, () => {
+//       setTimeout(() => {
+//         this.dollarEl.textContent = "$$$";
+//       }, 1300);
+//       setTimeout(() => {
+//         this.answerEl.textContent = "you've got it";
+//       }, 2000);
+//     });
+//   },
+// };
 
-typing.run("If you want code");
+// typing.run("If you want code");

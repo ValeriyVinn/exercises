@@ -8,13 +8,19 @@ setupExercise({
 
 // ! Рішення ----------
 
-function isPalindrome(str) {
-  if (str.toLowerCase().split("").reverse().join("") === str.toLowerCase()) {
-    console.log(`${str} is a palindrome`);
-  } else {
-    console.log(`${str} is not a palindrome`);
-  }
-}
+// function isPalindrome(str) {
+//   if (str.toLowerCase().split("").reverse().join("") === str.toLowerCase()) {
+//     console.log(`${str} is a palindrome`);
+//   } else {
+//     console.log(`${str} is not a palindrome`);
+//   }
+// }
 
-isPalindrome("Racecar");
-isPalindrome("Hello");
+// isPalindrome("Racecar");
+// isPalindrome("Hello");
+
+// function isPalindrome(str) {
+//   str.toLowerCase().split("").reverse().join("") === str.toLowerCase() ? console.log(`${str} is palindrome` ) : console.log(`${str} is not palindrome`)
+// }
+// isPalindrome("Racecar");
+// isPalindrome("Hello");
