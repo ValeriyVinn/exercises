@@ -3,7 +3,7 @@
     "title": "Basic Components, Props and Styling",
     "path": "basic-components",
     "tasks": [
-      { "title": "Task One", "path": "basic-components/task-one" },
+      { "title": "Task One", "path": "" },
       { "title": "Jacques whereIsYourSmile", "path": "basic-components/jacques-where-is-your-smile" }
     ]
   },
@@ -28,7 +28,9 @@
     "path": "d",
     "tasks": [
       { "title": "Task One", "path": "d/task-one" },
-      { "title": "Task Two", "path": "d/task-two" }
+      { "title": "Task Two", "path": "d/task-two" },
+      { "title": "Counter on hooks", "path": "hooks/counter-on-hooks" },
+      { "title": "Task Four", "path": "d/task-two" }
     ]
   },
   {
